@@ -1,4 +1,66 @@
 <header class="header">
-	<div class="header__container">
+	<div class="header__top">
+		<div class="header__container">
+			<div class="header__actions actions">
+				<div class="actions__burger"></div>
+				<div class="actions__block">
+					<img src="@img/header/in.svg" alt="Войти">
+					<a href="#" class="actions__link">Войти</a>
+				</div>
+				<div class="actions__block">
+					<img src="@img/header/favourites.svg" alt="Избранное">
+					<a href="#" class="actions__link">Избранное</a>
+				</div>
+				<div class="actions__block">
+					<img src="@img/header/favourites.svg" alt="Корзина">
+					<a href="#" class="actions__link">В корзине нет товаров</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="header__center center-header">
+		<div class="header__container">
+			<div class="center-header__wrapper">
+				<div class="center-header__logo">
+				<img src="@img/header/logo.png" alt="Воздух техноцентр">
+				</div>
+				<div class="center-header__contacts">
+					<div class="center-header__contacts-item">
+						<a href="tel:+73912873200" class="center-header__link center-header__link_phone">+7 (391) 287-32-00</a>
+						<button class="center-header__button">Заказать звонок</button>
+					</div>
+					<div class="center-header__contacts-item">
+						<a href="mailto:evozduh@mail.ru" class="center-header__link center-header__link_mail">evozduh@mail.ru</a>
+						<button class="center-header__button">Обратная связь</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="header__bottom">
+		<div class="header__container">
+			<div class="header__menu menu">
+				<button data-da=".actions__burger, 992, 0" type="button" class="menu__icon icon-menu"><span></span></button>
+				<nav class="menu__body">
+					<ul class="menu__list">
+						<li class="menu__item"><a href="#" class="menu__link">Главная</a></li>
+						<li class="menu__item">
+							<a href="#" class="menu__link">
+								<span>Каталог товаров</span>
+								<img src="@img/header/arrow-down.svg" alt="меню">
+							</a>
+						</li>
+						<li class="menu__item"><a href="#" class="menu__link">О компании</a></li>
+						<li class="menu__item"><a href="#" class="menu__link">Сертификаты</a></li>
+						<li class="menu__item"><a href="#" class="menu__link">Сервис</a></li>
+						<li class="menu__item"><a href="#" class="menu__link">Доставка и оплата</a></li>
+						<li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
+					</ul>
+					<button class="menu__search">
+						<img src="@img/header/search.svg" alt="Поиск">
+					</button>
+				</nav>
+			</div>
+		</div>
 	</div>
 </header>

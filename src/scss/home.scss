@@ -1,3 +1,58 @@
 //====================================================================================================
+.page {
+
+	&__main {
+		background: url('@img/main/banners.jpg') 0 0 / cover no-repeat;
+	}
+}
+.main {
+
+	&__container {
+		text-align: center;
+		@include adaptiveValue("padding-top", 120, 40,1162,320,1);
+		@include adaptiveValue("padding-bottom", 61, 30,1162,320,1);
+	}
+
+	&__title {
+		
+		color: white;
+		font-weight: 700;
+		@include adaptiveValue("font-size", 67, 20,1162,320,1);
+		line-height: math.div(82 , 67);
+		span {
+			@include adaptiveValue("font-size", 40, 12,1162,320,1);
+			line-height: math.div(49 , 40);
+		}
+	}
+
+	&__catalog {
+		margin-top: 30px;
+		background: #FFFFFF;
+		border-radius: 5px;
+		padding: 8.5px 16px;
+		color: #193965;
+		text-transform: uppercase;
+		line-height: math.div(22 , 14);
+		font-weight: 600;
+	}
+
+	&__advantages {
+		margin-top: 129px;
+		display: flex;
+		padding: 20px 60px;
+		align-items: center;
+		justify-content: space-between;
+		background: #193965;
+	}
+}
+.advantages-main {
+
+	&__item {
+		color: white;
+		font-weight: 700;
+		@include adaptiveValue("font-size", 20, 12,1162,320,1);
+		line-height: math.div(24 , 20);
+	}
+}
 
 //====================================================================================================
